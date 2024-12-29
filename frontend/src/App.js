@@ -20,6 +20,8 @@ import ForgetPassword from "./Pages/ForgetPassword";
 import VerifyOTP from "./Pages/VerifyOTP";
 import VerifyPassword from "./Pages/VerifyPassword";
 import TopDestinations from "./Pages/TopDestinations";
+import Main from "./Pages/Dashboard/Main";
+
 
 
 function App() {
@@ -55,6 +57,13 @@ function App() {
           <Route path='/forget-password' element={<Base><ForgetPassword/></Base>} />
           <Route path='/verifyOTP' element={<Base><VerifyOTP/></Base>} />
           <Route path='/verifyPassword' element={<Base><VerifyPassword/></Base>} />
+
+          {/* =========================Dashboard Routes============================== */}
+          <Route path='/main-dashboard' element={<Base><Main/></Base>} />
+
+
+
+
 
 
 
